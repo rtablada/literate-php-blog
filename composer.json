@@ -1,0 +1,20 @@
+{
+    "name": "rtablada/literate-blog",
+    "description": "A simple blog example using Literate PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Tablada",
+            "email": "ryan.tablada@gmail.com"
+        }
+    ],
+    "require": {
+        "rtablada/literatephp": "dev-master",
+        "illuminate/filesystem": "~4"
+    },
+    "autoload": {
+        "classmap": [
+            "lit-framework/"
+        ]
+    }
+}
