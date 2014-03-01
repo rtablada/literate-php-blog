@@ -23,7 +23,7 @@
 				<?= md($contents) ?>
 			</div>
 			<footer>
-				<p>Powered by <a href="http://wardrobecms.com">Literate PHP</a></p>
+				<p>Powered by <a href="https://github.com/rtablada/literate-php-blog">Literate PHP</a></p>
 			</footer>
 		</div>
 	</body>
