@@ -27,7 +27,7 @@ class View
 	public function make($uri)
 	{
 		$contents = $this->getContents($uri);
-		echo "<pre>$contents</pre>";
+		include base_path('/app/views/layout.php');
 	}
 
 /**

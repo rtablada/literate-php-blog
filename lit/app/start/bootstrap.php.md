@@ -7,6 +7,20 @@ function base_path($path = '')
 }
 ```
 
+# Create markup helper
+
+```php
+use \Michelf\MarkdownExtra;
+
+if ( ! function_exists('md'))
+{
+	function md($str)
+	{
+		return MarkdownExtra::defaultTransform($str);
+	}
+}
+```
+
 # First let's get composer running.
 
 ```php

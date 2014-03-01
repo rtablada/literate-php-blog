@@ -29,7 +29,7 @@ We also have to build a file tree and pass it to the view for navigation.
 	public function make($uri)
 	{
 		$contents = $this->getContents($uri);
-		echo "<pre>$contents</pre>";
+		include base_path('/app/views/layout.php');
 	}
 ```
 

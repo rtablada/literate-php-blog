@@ -6,6 +6,17 @@ function base_path($path = '')
 	return __DIR__.'/../..'.$path;
 }
 
+// Create markup helper
+use \Michelf\MarkdownExtra;
+
+if ( ! function_exists('md'))
+{
+	function md($str)
+	{
+		return MarkdownExtra::defaultTransform($str);
+	}
+}
+
 // First let's get composer running.
 require_once(base_path('/vendor/autoload.php'));
 

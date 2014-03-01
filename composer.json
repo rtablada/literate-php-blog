@@ -10,7 +10,8 @@
     ],
     "require": {
         "rtablada/literatephp": "dev-master",
-        "illuminate/filesystem": "~4"
+        "illuminate/filesystem": "~4",
+        "michelf/php-markdown": "1.3.*@dev"
     },
     "autoload": {
         "classmap": [
